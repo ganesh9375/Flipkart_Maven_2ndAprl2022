@@ -52,6 +52,7 @@ public class VerifyUserCanLogIn {
 	{
 		lp.enterEmail();
 		lp.enterPassword();
+		
 		lp.clickLoginBtn();
 		
 		HomePage hp = new HomePage(driver);
